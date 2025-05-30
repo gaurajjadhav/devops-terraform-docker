@@ -40,9 +40,9 @@ Provision a local **Docker container** using **Terraform**, demonstrating Infras
 
 ```bash
 terraform init
+```bash 
 
-
- 2. Preview the Plan
+ ## 2. Preview the Plan
 
 ```bash
 terraform plan
