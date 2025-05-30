@@ -36,29 +36,32 @@ Provision a local **Docker container** using **Terraform**, demonstrating Infras
 
 ##  Step-by-Step Workflow
 
-### 1️. Initialize Terraform
+## 1️. Initialize Terraform
 
 ```bash
 terraform init
 
-###2. Preview the Plan
+##2. Preview the Plan
 ```bash
 terraform plan
+
 Shows what changes will be made without applying them (safe to check before applying).
 
-###3. Apply the Configuration
+##3. Apply the Configuration
 ```bash
 terraform apply
+
 Provisions a Docker container using the configuration in main.tf.
 We will be prompted with:
 Do you want to perform these actions?
 Type yes and press Enter.
 
-###4. Terraform will then proceed to:
+##4. Terraform will then proceed to:
 Pull the Nginx Docker image (if not already pulled)
 Create the Docker container
 Map port 8888 → 80
 
-###5. It will work on 
+##5. It will work on 
 ```bash
+
 http://localhost:8080
