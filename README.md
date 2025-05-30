@@ -61,7 +61,7 @@ Pull the Nginx Docker image (if not already pulled)
 Create the Docker container
 Map port 8888 → 80
 
-##5. It will work on 
-```bash
+##5. It will work on
 
+```bash
 http://localhost:8080
