@@ -3,7 +3,7 @@
 ##  Objective
 Provision a local **Docker container** using **Terraform**, demonstrating Infrastructure as Code (IaC) principles.
 
----
+
 
 ##  Tools & Technologies Used
 
@@ -11,7 +11,7 @@ Provision a local **Docker container** using **Terraform**, demonstrating Infras
 - [Docker](https://www.docker.com/)
 - Terraform Docker Provider
 
----
+
 
 ##  Files in This Repo
  
@@ -43,7 +43,7 @@ Provision a local **Docker container** using **Terraform**, demonstrating Infras
 "terraform plan"
 Shows what changes will be made without applying them (safe to check before applying).
 
- ##3. Apply the Configuration
+ ## 3. Apply the Configuration
 "terraform apply"
 
 Provisions a Docker container using the configuration in main.tf.
@@ -51,15 +51,15 @@ We will be prompted with:
 Do you want to perform these actions?
 Type yes and press Enter.
 
- ##4. Terraform will then proceed to:
+ ## 4. Terraform will then proceed to:
 Pull the Nginx Docker image (if not already pulled)
 Create the Docker container
 Map port 8888 → 80
 
- ##5. It will work on
+ ## 5. It will work on
 "http://localhost:8888"
 
-##6.Commadns :
+## 6.Commadns :
 ```bash
 .\terraform init
 .\terraform plan
